@@ -31,6 +31,12 @@ jobs:
         with:
           dotnet-version: "8.0.x"
 
+      - name: Diagnostika (dočasné)
+        shell: bash
+        run: |
+          dotnet --version
+          dotnet new sln --help
+
       - name: Vygenerovat chybějící .sln
         id: generate
         shell: bash
