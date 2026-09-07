@@ -31,12 +31,6 @@ jobs:
         with:
           dotnet-version: "8.0.x"
 
-      - name: Diagnostika (dočasné)
-        shell: bash
-        run: |
-          dotnet --version
-          dotnet new sln --help
-
       - name: Vygenerovat chybějící .sln
         id: generate
         shell: bash
@@ -49,7 +43,10 @@ jobs:
             sln="$dir/$name.sln"
             if [ ! -f "$sln" ]; then
               echo "Vytvářím $sln"
-              (cd "$dir" && dotnet new sln -n "$name" && dotnet sln add "$(basename "$csproj")")
+              # --format sln: novější SDK defaultně generuje .slnx, ale
+              # ostatní ukázky v repu mají klasický .sln — ať jsou všechny
+              # stejné a otevřou se v každé Visual Studiu.
+              (cd "$dir" && dotnet new sln -n "$name" --format sln && dotnet sln add "$(basename "$csproj")")
               changed=1
             fi
           done < <(find . -name '*.csproj' -not -path './.git/*' -print0)
