@@ -21,6 +21,7 @@ změna textu).
 | Projekt | Co ukazuje |
 | --- | --- |
 | [01-prvni-okno](ukazky/01-prvni-okno) | Tlačítko, textové pole a popisek — reakce na klik |
+| [02-seznam-a-vyber](ukazky/02-seznam-a-vyber) | `ListBox`, reakce na `SelectedIndexChanged` |
 
 ## Zápisky z hodin
 

@@ -21,6 +21,7 @@ stejného jména.
 | Projekt | Co ukazuje |
 | --- | --- |
 | [01-prvni-okno](ukazky/01-prvni-okno) | Tlačítko, textové pole — XAML rozložení + obsluha v code-behind |
+| [02-seznam-a-vyber](ukazky/02-seznam-a-vyber) | `ListBox` s položkami rovnou v XAML, `SelectionChanged` |
 
 ## Zápisky z hodin
 
