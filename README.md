@@ -40,9 +40,9 @@ git clone https://github.com/dominiknemecek/3ITA-VA-2026-27.git
 nebo si stáhněte aktuální stav jako ZIP tlačítkem **Code → Download ZIP**
 nahoře na této stránce — na to není potřeba žádný GitHub účet ani Git.
 
-Konkrétní projekt v `ukazky/` pak otevřete přes jeho `.csproj` (nebo přes
-`.sln`, pokud tam je) ve Visual Studiu, případně ho spustíte příkazem
-`dotnet run` ve složce s daným projektem.
+Konkrétní projekt v `ukazky/` pak ve Visual Studiu otevřete dvojklikem na
+jeho `.sln`, případně ho spustíte příkazem `dotnet run` ve složce s daným
+projektem.
 
 ## Průběžná aktualizace
 
