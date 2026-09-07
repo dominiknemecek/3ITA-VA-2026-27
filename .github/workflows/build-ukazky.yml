@@ -1,0 +1,52 @@
+name: Build ukázek
+
+on:
+  push:
+    paths:
+      - "**/*.csproj"
+      - "**/*.cs"
+      - "**/*.xaml"
+      - ".github/workflows/build-ukazky.yml"
+  pull_request:
+    paths:
+      - "**/*.csproj"
+      - "**/*.cs"
+      - "**/*.xaml"
+  workflow_dispatch:
+
+jobs:
+  build:
+    # windows-latest, protože WinForms a WPF (net8.0-windows) jinde nejdou
+    # sestavit — konzolové projekty se sestaví stejně dobře.
+    runs-on: windows-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+
+      - name: Sestavit všechny ukázkové projekty
+        shell: pwsh
+        run: |
+          $projekty = Get-ChildItem -Path . -Recurse -Filter *.csproj
+          if ($projekty.Count -eq 0) {
+            Write-Host "Žádné .csproj soubory k sestavení."
+            exit 0
+          }
+
+          $chyby = @()
+          foreach ($projekt in $projekty) {
+            Write-Host "== Sestavuji $($projekt.FullName) =="
+            dotnet build $projekt.FullName --configuration Release
+            if ($LASTEXITCODE -ne 0) {
+              $chyby += $projekt.FullName
+            }
+          }
+
+          if ($chyby.Count -gt 0) {
+            Write-Host "Sestavení selhalo u:"
+            $chyby | ForEach-Object { Write-Host " - $_" }
+            exit 1
+          }

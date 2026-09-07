@@ -1,5 +1,7 @@
 # 3ITA-VA-2026-27
 
+[![Build ukázek](https://github.com/dominiknemecek/3ITA-VA-2026-27/actions/workflows/build-ukazky.yml/badge.svg)](https://github.com/dominiknemecek/3ITA-VA-2026-27/actions/workflows/build-ukazky.yml)
+
 Materiály k výuce programování v jazyce C# — školní rok 2026/27.
 
 Najdete tu zápisky a ukázkové projekty z hodin, seřazené podle témat v pořadí,
