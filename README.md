@@ -45,7 +45,6 @@ Repozitář se bude v průběhu roku doplňovat o nové kapitoly a zápisky
 z aktuálních hodin — pro nejnovější verzi si ho čas od času stáhněte znovu
 (`git pull`, nebo nový ZIP).
 
-## Pravidla používání
+## Licence
 
-Než začnete materiály používat nebo dál sdílet, přečtěte si
-[PRAVIDLA-POUZIVANI.md](PRAVIDLA-POUZIVANI.md).
+Materiály jsou k dispozici pod licencí [MIT](LICENSE).
