@@ -6,6 +6,9 @@ Najdete tu zápisky a ukázkové projekty z hodin, seřazené podle témat v po�
 v jakém na sebe navazují. Každá kapitola má vlastní `README.md` s vysvětlením
 a složku `ukazky/`, kde je funkční kód ke stažení a spuštění.
 
+Rozvrh a zadání jednotlivých hodin s daty pro obě skupiny najdete
+v [tabulce v ulohy-z-hodiny](ulohy-z-hodiny/README.md).
+
 ## Obsah
 
 | Kapitola | Téma |
