@@ -14,6 +14,7 @@ a složku `ukazky/`, kde je funkční kód ke stažení a spuštění.
 | [02-oop](02-oop) | Třídy, objekty, zapouzdření, dědičnost |
 | [03-winforms](03-winforms) | Desktopové aplikace s WinForms |
 | [04-wpf](04-wpf) | Desktopové aplikace s WPF |
+| [ulohy-z-hodiny](ulohy-z-hodiny) | Zadání a řešení jednotlivých hodin podle skupin a data |
 
 ## Co budete potřebovat
 
