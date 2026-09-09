@@ -11,8 +11,8 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void tlacitkoPozdrav_Click(object sender, RoutedEventArgs e)
+    private void greetButton_Click(object sender, RoutedEventArgs e)
     {
-        popisekVysledek.Text = $"Ahoj, {textJmeno.Text}!";
+        resultLabel.Text = $"Ahoj, {nameTextBox.Text}!";
     }
 }

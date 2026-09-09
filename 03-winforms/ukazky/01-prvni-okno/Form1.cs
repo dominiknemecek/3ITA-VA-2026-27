@@ -10,10 +10,10 @@ public partial class Form1 : Form
         InitializeComponent();
     }
 
-    // Metoda napojená na událost Click tlačítka tlacitkoPozdrav
+    // Metoda napojená na událost Click tlačítka greetButton
     // (propojení vidíte v Form1.Designer.cs).
-    private void tlacitkoPozdrav_Click(object sender, EventArgs e)
+    private void greetButton_Click(object sender, EventArgs e)
     {
-        popisekVysledek.Text = $"Ahoj, {textJmeno.Text}!";
+        resultLabel.Text = $"Ahoj, {nameTextBox.Text}!";
     }
 }

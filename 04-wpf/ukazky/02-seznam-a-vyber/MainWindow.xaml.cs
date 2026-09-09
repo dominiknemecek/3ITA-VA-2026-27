@@ -10,11 +10,11 @@ public partial class MainWindow : Window
         InitializeComponent();
     }
 
-    private void seznamJazyku_SelectionChanged(object sender, SelectionChangedEventArgs e)
+    private void languageListBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
     {
-        if (seznamJazyku.SelectedItem is ListBoxItem vybrana)
+        if (languageListBox.SelectedItem is ListBoxItem selectedItem)
         {
-            popisekVyber.Text = $"Vybral jsi: {vybrana.Content}";
+            selectionLabel.Text = $"Vybral jsi: {selectedItem.Content}";
         }
     }
 }

@@ -1,12 +1,18 @@
-// Pole typu ITvar — každý prvek je jiná třída (Ctverec, Kruh), ale
-// všechny umí Obsah(), tak s nimi můžeme pracovat jednotně.
-ITvar[] tvary = { new Ctverec(4), new Kruh(3) };
-
-double celkovyObsah = 0;
-foreach (ITvar tvar in tvary)
+class Program
 {
-    Console.WriteLine($"{tvar.GetType().Name}: obsah = {tvar.Obsah():F2}");
-    celkovyObsah += tvar.Obsah();
-}
+    static void Main()
+    {
+        // Pole typu IShape — každý prvek je jiná třída (Square, Circle), ale
+        // všechny umí Area(), tak s nimi můžeme pracovat jednotně.
+        IShape[] shapes = { new Square(4), new Circle(3) };
 
-Console.WriteLine($"Celkový obsah všech tvarů: {celkovyObsah:F2}");
+        double totalArea = 0;
+        foreach (IShape shape in shapes)
+        {
+            Console.WriteLine($"{shape.GetType().Name}: obsah = {shape.Area():F2}");
+            totalArea += shape.Area();
+        }
+
+        Console.WriteLine($"Celkový obsah všech tvarů: {totalArea:F2}");
+    }
+}

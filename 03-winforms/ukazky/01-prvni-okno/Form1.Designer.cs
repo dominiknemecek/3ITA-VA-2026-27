@@ -17,55 +17,55 @@ partial class Form1
 
     private void InitializeComponent()
     {
-        this.popisekJmeno = new System.Windows.Forms.Label();
-        this.textJmeno = new System.Windows.Forms.TextBox();
-        this.tlacitkoPozdrav = new System.Windows.Forms.Button();
-        this.popisekVysledek = new System.Windows.Forms.Label();
+        this.nameLabel = new System.Windows.Forms.Label();
+        this.nameTextBox = new System.Windows.Forms.TextBox();
+        this.greetButton = new System.Windows.Forms.Button();
+        this.resultLabel = new System.Windows.Forms.Label();
         this.SuspendLayout();
         //
-        // popisekJmeno
+        // nameLabel
         //
-        this.popisekJmeno.AutoSize = true;
-        this.popisekJmeno.Location = new System.Drawing.Point(20, 20);
-        this.popisekJmeno.Name = "popisekJmeno";
-        this.popisekJmeno.Size = new System.Drawing.Size(83, 15);
-        this.popisekJmeno.TabIndex = 0;
-        this.popisekJmeno.Text = "Tvoje jméno:";
+        this.nameLabel.AutoSize = true;
+        this.nameLabel.Location = new System.Drawing.Point(20, 20);
+        this.nameLabel.Name = "nameLabel";
+        this.nameLabel.Size = new System.Drawing.Size(83, 15);
+        this.nameLabel.TabIndex = 0;
+        this.nameLabel.Text = "Tvoje jméno:";
         //
-        // textJmeno
+        // nameTextBox
         //
-        this.textJmeno.Location = new System.Drawing.Point(120, 17);
-        this.textJmeno.Name = "textJmeno";
-        this.textJmeno.Size = new System.Drawing.Size(150, 23);
-        this.textJmeno.TabIndex = 1;
+        this.nameTextBox.Location = new System.Drawing.Point(120, 17);
+        this.nameTextBox.Name = "nameTextBox";
+        this.nameTextBox.Size = new System.Drawing.Size(150, 23);
+        this.nameTextBox.TabIndex = 1;
         //
-        // tlacitkoPozdrav
+        // greetButton
         //
-        this.tlacitkoPozdrav.Location = new System.Drawing.Point(20, 55);
-        this.tlacitkoPozdrav.Name = "tlacitkoPozdrav";
-        this.tlacitkoPozdrav.Size = new System.Drawing.Size(120, 30);
-        this.tlacitkoPozdrav.TabIndex = 2;
-        this.tlacitkoPozdrav.Text = "Pozdravit";
-        this.tlacitkoPozdrav.UseVisualStyleBackColor = true;
-        this.tlacitkoPozdrav.Click += new System.EventHandler(this.tlacitkoPozdrav_Click);
+        this.greetButton.Location = new System.Drawing.Point(20, 55);
+        this.greetButton.Name = "greetButton";
+        this.greetButton.Size = new System.Drawing.Size(120, 30);
+        this.greetButton.TabIndex = 2;
+        this.greetButton.Text = "Pozdravit";
+        this.greetButton.UseVisualStyleBackColor = true;
+        this.greetButton.Click += new System.EventHandler(this.greetButton_Click);
         //
-        // popisekVysledek
+        // resultLabel
         //
-        this.popisekVysledek.AutoSize = true;
-        this.popisekVysledek.Location = new System.Drawing.Point(20, 100);
-        this.popisekVysledek.Name = "popisekVysledek";
-        this.popisekVysledek.Size = new System.Drawing.Size(0, 15);
-        this.popisekVysledek.TabIndex = 3;
+        this.resultLabel.AutoSize = true;
+        this.resultLabel.Location = new System.Drawing.Point(20, 100);
+        this.resultLabel.Name = "resultLabel";
+        this.resultLabel.Size = new System.Drawing.Size(0, 15);
+        this.resultLabel.TabIndex = 3;
         //
         // Form1
         //
         this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
         this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
         this.ClientSize = new System.Drawing.Size(300, 150);
-        this.Controls.Add(this.popisekVysledek);
-        this.Controls.Add(this.tlacitkoPozdrav);
-        this.Controls.Add(this.textJmeno);
-        this.Controls.Add(this.popisekJmeno);
+        this.Controls.Add(this.resultLabel);
+        this.Controls.Add(this.greetButton);
+        this.Controls.Add(this.nameTextBox);
+        this.Controls.Add(this.nameLabel);
         this.Name = "Form1";
         this.Text = "První okno";
         this.ResumeLayout(false);
@@ -74,8 +74,8 @@ partial class Form1
 
     #endregion
 
-    private System.Windows.Forms.Label popisekJmeno;
-    private System.Windows.Forms.TextBox textJmeno;
-    private System.Windows.Forms.Button tlacitkoPozdrav;
-    private System.Windows.Forms.Label popisekVysledek;
+    private System.Windows.Forms.Label nameLabel;
+    private System.Windows.Forms.TextBox nameTextBox;
+    private System.Windows.Forms.Button greetButton;
+    private System.Windows.Forms.Label resultLabel;
 }

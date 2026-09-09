@@ -2,7 +2,7 @@
 // na rozdíl od dědičnosti (viz 02-dedicnost) tu nejde o "je to", ale
 // o "umí to". Třída může implementovat libovolně rozhraní, ale dědit
 // jen od jedné základní třídy.
-public interface ITvar
+public interface IShape
 {
-    double Obsah();
+    double Area();
 }

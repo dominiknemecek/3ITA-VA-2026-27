@@ -1,15 +1,21 @@
-Auto auto = new Auto("Škoda", "Octavia");
-Console.WriteLine(auto);
-
-auto.Najeto(150);
-auto.Najeto(80);
-Console.WriteLine(auto);
-
-try
+class Program
 {
-    auto.NajetoKm = 100; // méně než už má najeto — property to odmítne
-}
-catch (ArgumentException chyba)
-{
-    Console.WriteLine($"Chyba: {chyba.Message}");
+    static void Main()
+    {
+        Car car = new Car("Škoda", "Octavia");
+        Console.WriteLine(car);
+
+        car.Drive(150);
+        car.Drive(80);
+        Console.WriteLine(car);
+
+        try
+        {
+            car.MileageKm = 100; // méně než už má najeto — property to odmítne
+        }
+        catch (ArgumentException ex)
+        {
+            Console.WriteLine($"Chyba: {ex.Message}");
+        }
+    }
 }

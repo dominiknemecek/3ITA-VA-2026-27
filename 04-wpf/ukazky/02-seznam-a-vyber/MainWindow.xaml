@@ -5,15 +5,15 @@
     <StackPanel Margin="20">
         <!-- Položky seznamu jde napsat rovnou v XAML, na rozdíl od
              WinForms verze, kde se plní z kódu (Items.Add). -->
-        <ListBox x:Name="seznamJazyku" Height="100"
-                 SelectionChanged="seznamJazyku_SelectionChanged">
+        <ListBox x:Name="languageListBox" Height="100"
+                 SelectionChanged="languageListBox_SelectionChanged">
             <ListBoxItem Content="C#" />
             <ListBoxItem Content="C" />
             <ListBoxItem Content="Python" />
             <ListBoxItem Content="JavaScript" />
         </ListBox>
 
-        <TextBlock x:Name="popisekVyber" Margin="0,15,0,0"
+        <TextBlock x:Name="selectionLabel" Margin="0,15,0,0"
                    Text="Zatím nic nevybráno" />
     </StackPanel>
 </Window>

@@ -9,19 +9,19 @@ public partial class Form1 : Form
     {
         InitializeComponent();
 
-        seznamJazyku.Items.Add("C#");
-        seznamJazyku.Items.Add("C");
-        seznamJazyku.Items.Add("Python");
-        seznamJazyku.Items.Add("JavaScript");
+        languageListBox.Items.Add("C#");
+        languageListBox.Items.Add("C");
+        languageListBox.Items.Add("Python");
+        languageListBox.Items.Add("JavaScript");
     }
 
     // SelectedIndexChanged se spustí pokaždé, když uživatel klikne na
     // jinou položku seznamu — nemusíme čekat na potvrzovací tlačítko.
-    private void seznamJazyku_SelectedIndexChanged(object sender, EventArgs e)
+    private void languageListBox_SelectedIndexChanged(object sender, EventArgs e)
     {
-        if (seznamJazyku.SelectedItem is string vybranyJazyk)
+        if (languageListBox.SelectedItem is string selectedLanguage)
         {
-            popisekVyber.Text = $"Vybral jsi: {vybranyJazyk}";
+            selectionLabel.Text = $"Vybral jsi: {selectedLanguage}";
         }
     }
 }

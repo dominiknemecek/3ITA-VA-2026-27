@@ -1,9 +1,15 @@
-// Pole typu Zvire, ale prvky jsou skutečně Pes a Kocka — polymorfismus:
-// každý objekt "ví", jaký zvuk vydat, i když s nimi pracujeme přes
-// společný typ Zvire.
-Zvire[] zvirata = { new Pes("Rex"), new Kocka("Micka") };
-
-foreach (Zvire zvire in zvirata)
+class Program
 {
-    zvire.PredstavSe();
+    static void Main()
+    {
+        // Pole typu Animal, ale prvky jsou skutečně Dog a Cat — polymorfismus:
+        // každý objekt "ví", jaký zvuk vydat, i když s nimi pracujeme přes
+        // společný typ Animal.
+        Animal[] animals = { new Dog("Rex"), new Cat("Micka") };
+
+        foreach (Animal animal in animals)
+        {
+            animal.Introduce();
+        }
+    }
 }

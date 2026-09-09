@@ -4,14 +4,14 @@
         Title="První okno" Height="180" Width="320">
     <StackPanel Margin="20">
         <TextBlock Text="Tvoje jméno:" Margin="0,0,0,4" />
-        <TextBox x:Name="textJmeno" Margin="0,0,0,10" />
+        <TextBox x:Name="nameTextBox" Margin="0,0,0,10" />
 
-        <Button x:Name="tlacitkoPozdrav"
+        <Button x:Name="greetButton"
                 Content="Pozdravit"
                 Width="120"
                 HorizontalAlignment="Left"
-                Click="tlacitkoPozdrav_Click" />
+                Click="greetButton_Click" />
 
-        <TextBlock x:Name="popisekVysledek" Margin="0,15,0,0" FontWeight="Bold" />
+        <TextBlock x:Name="resultLabel" Margin="0,15,0,0" FontWeight="Bold" />
     </StackPanel>
 </Window>
