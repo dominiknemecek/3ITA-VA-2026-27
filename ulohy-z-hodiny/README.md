@@ -9,7 +9,7 @@ zrovna nemá čtvrtek, má v daném týdnu jen tu páteční.
 
 | Téma hodiny | Složka | Skupina S1 (datum) | Skupina S2 (datum) | Obsah |
 | --- | --- | --- | --- | --- |
-| Úvod do C#, IDE, první program | `01-hodina-zaklady-csharp` | 2026-09-11 | 2026-09-10 | Hello World, struktura projektu, načítání a výpis vstupu, datové typy, funkce pro string |
+| Úvod do C#, IDE, první program | [01-hodina-zaklady-csharp](01-hodina-zaklady-csharp) | 2026-09-11 | 2026-09-10 | Hello World, struktura projektu, načítání a výpis vstupu, datové typy, funkce pro string |
 | Podmínky (if, switch), cykly, načítání vstupu | `02-hodina-zaklady-csharp` | 2026-09-17 | 2026-09-18 | If/else, cykly, ASCII art, jednoduché úlohy |
 | Opakování podmínek a cyklů | `03-hodina-zaklady-csharp` | 2026-09-25 | 2026-09-24 | Samostatná práce č.1 (Skupina procvičovacích úloh) |
 | Opakování podmínek a cyklů | `04-hodina-zaklady-csharp` | 2026-10-01 | 2026-10-02 | Samostatná práce č.2 (ASCII art) |
