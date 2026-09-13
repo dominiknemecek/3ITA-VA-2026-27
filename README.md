@@ -23,7 +23,7 @@ v [tabulce v ulohy-z-hodiny](ulohy-z-hodiny/README.md).
 
 ## Co budete potřebovat
 
-- **Visual Studio 2022** (Community edice stačí) s workloadem *.NET desktop
+- **Visual Studio 2022 nebo 2026** (Community edice stačí) s workloadem *.NET desktop
   development* — bez něj nejdou WinForms ani WPF projekty otevřít.
 - Alternativně **VS Code** + **.NET SDK** — pro kapitolu 01 a 02 to bohatě
   stačí, WinForms a WPF ale potřebují Windows (na macOS/Linuxu se nedají
