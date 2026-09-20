@@ -1,8 +1,10 @@
-﻿internal class Program
+using System;
+
+class Program
 {
-    private static void Main(string[] args)
+    static void Main()
     {
-        int size = 10; // Velikost čtverce (10x10)
+        byte size = 10; // Velikost čtverce (10x10)
 
         // Vnější for cyklus – určuje řádky (výšku "čtverce")
         for (int i = 0; i < size; i++)

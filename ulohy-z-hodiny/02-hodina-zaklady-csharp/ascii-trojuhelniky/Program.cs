@@ -1,8 +1,10 @@
-﻿internal class Program
+using System;
+
+class Program
 {
-    private static void Main(string[] args)
+    static void Main()
     {
-        int size = 5; // výška a šířka obrazce (velikost)
+        byte size = 5; // výška a šířka obrazce (velikost)
 
         // --- První část obrazce ---
         for (int i = 1; i <= size; i++) // cyklus přes řádky
