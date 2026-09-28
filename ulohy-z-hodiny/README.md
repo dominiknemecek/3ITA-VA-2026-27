@@ -11,7 +11,7 @@ zrovna nemá čtvrtek, má v daném týdnu jen tu páteční.
 | --- | --- | --- | --- | --- |
 | Úvod do C#, IDE, první program | [01-hodina-zaklady-csharp](01-hodina-zaklady-csharp) | 2026-09-11 | 2026-09-10 | Hello World, struktura projektu, načítání a výpis vstupu, datové typy, funkce pro string |
 | Podmínky (if, switch), cykly, načítání vstupu | [02-hodina-zaklady-csharp](02-hodina-zaklady-csharp) | 2026-09-17 | 2026-09-11 | If/else, cykly, ASCII art, jednoduché úlohy |
-| Opakování podmínek a cyklů | `03-hodina-zaklady-csharp` | 2026-09-18 | 2026-09-18 | Samostatná práce č.1 (Skupina procvičovacích úloh) |
+| Opakování podmínek a cyklů | [03-hodina-zaklady-csharp](03-hodina-zaklady-csharp) | 2026-09-18 | 2026-09-18 | Samostatná práce č.1 (Skupina procvičovacích úloh) |
 | Opakování podmínek a cyklů | `04-hodina-zaklady-csharp` | 2026-09-25 | 2026-09-24 | Samostatná práce č.2 (ASCII art) |
 | Datové struktury | `05-hodina-zaklady-csharp` | 2026-??-?? | 2026-09-25 | Používání datových struktur (array, dictionary, list, ...) |
 | Datové struktury | `06-hodina-zaklady-csharp` | 2026-??-??1 | 2026-??-?? | Používání datových struktur (array, dictionary, list, ...) + opakování na Moodle test |
