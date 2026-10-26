@@ -10,7 +10,7 @@ s kódem, na kterou se v tabulce odkazuje sloupec **Složka**.
 | Opakování podmínek a cyklů | [03-hodina-zaklady-csharp](03-hodina-zaklady-csharp) | Samostatná práce č.1 (Skupina procvičovacích úloh) |
 | Opakování podmínek a cyklů | [04-hodina-zaklady-csharp](04-hodina-zaklady-csharp) | Samostatná práce č.2 (ASCII art) |
 | Datové struktury | [05-hodina-zaklady-csharp](05-hodina-zaklady-csharp) | Používání datových struktur (array, dictionary, list, ...) |
-| Datové struktury | `06-hodina-zaklady-csharp` | Používání datových struktur (array, dictionary, list, ...) + opakování na Moodle test |
+| Datové struktury | [06-hodina-zaklady-csharp](06-hodina-zaklady-csharp) | Používání datových struktur (array, dictionary, list, ...) + opakování na Moodle test |
 | Datové struktury | `07-hodina-zaklady-csharp` | Používání datových struktur (array, dictionary, list, ...) |
 | | | |
 | | | |
