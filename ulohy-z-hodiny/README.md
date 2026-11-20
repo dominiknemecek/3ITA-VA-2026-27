@@ -12,6 +12,8 @@ s kódem, na kterou se v tabulce odkazuje sloupec **Složka**.
 | Datové struktury | [05-hodina-zaklady-csharp](05-hodina-zaklady-csharp) | Používání datových struktur (array, dictionary, list, ...) |
 | Datové struktury | [06-hodina-zaklady-csharp](06-hodina-zaklady-csharp) | Používání datových struktur (array, dictionary, list, ...) + opakování na Moodle test |
 | Datové struktury | `07-hodina-zaklady-csharp` | Používání datových struktur (array, dictionary, list, ...) |
+| Dvourozměrná pole, metody | [08-hodina-zaklady-csharp](08-hodina-zaklady-csharp) | Maticové počty (sčítání, odčítání, násobení), metody, 2D pole |
+| Procvičení: hra | [09-hodina-zaklady-csharp](09-hodina-zaklady-csharp) | Hra Minové pole (více souborů/tříd, 2D pole) |
 | | | |
 | | | |
 | | | |
